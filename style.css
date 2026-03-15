@@ -83,6 +83,11 @@ img { display: block; max-width: 100%; }
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.03em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  line-height: 1;
 }
 .nav-social a:hover { color: #ffffff; }
 
@@ -136,14 +141,15 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
-  background: #ffffff;
+  background: #e8e8e8;
+  border-top: 3px solid #ffffff;
 }
 
 .work-item {
   position: relative;
   overflow: hidden;
   aspect-ratio: 4/3;
-  background: #f0f0f0;
+  background: #ffffff;
 }
 
 .work-item img {
@@ -354,7 +360,17 @@ img { display: block; max-width: 100%; }
   gap: 16px;
   list-style: none;
 }
-.footer-social a { color: var(--color-muted); transition: color 0.2s; }
+.footer-social a {
+  color: var(--color-muted);
+  transition: color 0.2s;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  line-height: 1;
+}
 .footer-social a:hover { color: var(--color-text); }
 
 /* ===== MOBILE NAV TOGGLE ===== */
