@@ -80,9 +80,9 @@ img { display: block; max-width: 100%; }
 .nav-social a {
   color: rgba(255,255,255,0.85);
   transition: color 0.2s;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 .nav-social a:hover { color: #ffffff; }
 
@@ -136,7 +136,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
-  background: #e0e0e0;
+  background: #ffffff;
 }
 
 .work-item {
