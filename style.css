@@ -80,13 +80,13 @@ img { display: block; max-width: 100%; }
 .nav-social a {
   color: rgba(255,255,255,0.85);
   transition: color 0.2s;
-  font-size: 0.85rem;
+  font-size: 1.275rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 20px;
+  min-width: 28px;
   line-height: 1;
 }
 .nav-social a:hover { color: #ffffff; }
@@ -363,12 +363,12 @@ img { display: block; max-width: 100%; }
 .footer-social a {
   color: var(--color-muted);
   transition: color 0.2s;
-  font-size: 0.85rem;
+  font-size: 1.275rem;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 20px;
+  min-width: 28px;
   line-height: 1;
 }
 .footer-social a:hover { color: var(--color-text); }
