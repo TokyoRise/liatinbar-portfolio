@@ -7,7 +7,7 @@
   --color-text: #111111;
   --color-muted: #666666;
   --color-border: #e0e0e0;
-  --nav-height: 52px;
+  --nav-height: 64px;
   --font: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -48,7 +48,7 @@ img { display: block; max-width: 100%; }
   list-style: none;
 }
 .nav-links a {
-  font-size: 0.875rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: rgba(255,255,255,0.8);
   transition: color 0.2s;
@@ -64,7 +64,7 @@ img { display: block; max-width: 100%; }
   text-align: center;
 }
 .nav-logo a {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 0.02em;
